@@ -1,44 +1,32 @@
 {
-	"name": "express-smtp-mailer",
-	"version": "1.0.0",
-	"prettier": "mj-pa",
-	"engines": {
-		"node": "12.18.x",
-		"npm": "6.14.x"
-	},
-	"scripts": {
-		"pretest": "eslint --ignore-path .gitignore .",
-		"start": "node server"
-	},
-	"cacheDirectories": [
-		"node_modules"
-	],
-	"dependencies": {
-		"dotenv": "8.2.0",
-		"express": "4.17.1",
-		"morgan": "1.10.0",
-		"nodemailer": "6.4.13"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/killshot13/express-smtp-mailer"
-	},
-	"keywords": [
-		"express",
-		"smtp",
-		"nodemailer",
-		"node"
-	],
-	"license": "MIT",
-	"devDependencies": {
-		"eslint": "7.12.1",
-		"eslint-config-strongloop": "2.1.0",
-		"mj-pa": "1.0.0",
-		"prettier": "2.1.2"
-	},
-	"bugs": {
-		"url": "https://github.com/killshot13/express-smtp-mailer/issues"
-	},
-	"main": "server.js",
-	"author": "killshot13 (Michael Rehnert)"
+  "name": "express-smtp-mailer",
+  "version": "1.0.1",
+  "scripts": {
+    "start": "node server"
+  },
+  "cacheDirectories": [
+    "node_modules"
+  ],
+  "dependencies": {
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "morgan": "1.10.0",
+    "nodemailer": "6.4.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/killshot13/express-smtp-mailer"
+  },
+  "keywords": [
+    "express",
+    "smtp",
+    "nodemailer",
+    "node"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/killshot13/express-smtp-mailer/issues"
+  },
+  "main": "server.js",
+  "author": "killshot13 (Michael Rehnert)"
 }
