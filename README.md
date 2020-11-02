@@ -4,10 +4,8 @@
 
 ### Can be configured for use with contact forms, subscriptions, etc
 
-#### production-ready
-
+#### #production-ready
 <br></br>
-
 ## Usage
 
 ### Installation
