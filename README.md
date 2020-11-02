@@ -24,8 +24,9 @@ create a new `.env` file in the root directory
 
 use these `process.env` variables defined in the `routes.js` file to provide account authentication
 
-`_process.env.SMTP_TO_EMAIL=''_`
-`_process.env.SMTP_TO_PASSWORD=''_`
+_`process.env.SMTP_TO_EMAIL=''`_
+
+_`process.env.SMTP_TO_PASSWORD=''`_
 
 use the credentials of the recipient account
 
@@ -36,6 +37,7 @@ go back to the terminal and run `node server`
 it should print out the following lines
 
 `Node dev server: listening on port 5000`
+
 `Ready to send mail!`
 
 verify the functionality by replacing the `'/example/frontend.js'` dirpath in `routes.js` and `server.js` with your frontend route
