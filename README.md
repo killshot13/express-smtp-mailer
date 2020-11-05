@@ -3,8 +3,8 @@
 ## Uses Express.js, Nodemailer, and Google's SMTP server
 
 ### Can be configured for use with contact forms, subscriptions, etc
+![](https://travis-ci.com/killshot13/express-smtp-mailer.svg?branch=main&status=passed) ![](https://img.shields.io/github/issues/killshot13/express-smtp-mailer) ![](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fkillshot13%2Fexpress-smtp-mailer)<br></br>
 
-#### #production-ready<br></br>
 ## Usage
 
 ### Installation
