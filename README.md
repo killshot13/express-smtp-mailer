@@ -5,8 +5,7 @@
 
 ### Multi-Process Design, HTML FileType Priority, Middleware AJAX Parsing
 ### Integrated SMTP Mail Delivery For Contact Forms, Subscriptions, etc
-<br>
-## Usage
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/killshot/13/express-smtp-mailer)
 
 ### Installation
 
