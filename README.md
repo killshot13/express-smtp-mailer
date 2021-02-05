@@ -7,6 +7,8 @@
 ### Integrated SMTP Mail Delivery For Contact Forms, Subscriptions, etc
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/killshot/13/express-smtp-mailer)
 
+## [VIEW FULL TUTORIAL](https://daily.dev/posts/how-to-build-an-smtp-mail-server-with-express-node-and-gmail)
+
 ### Installation
 
 `git clone` this repository
