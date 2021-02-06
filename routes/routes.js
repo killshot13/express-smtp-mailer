@@ -5,31 +5,31 @@ const path = require("path");
 const nodemailer = require("nodemailer");
 
 //this is the authentication for sending email.
-const transport;
-if (process.env.NODE_ENV === 'production' ) {
-    // all emails are delivered to destination
-    transport = {
-        host: 'smtp.gmail.com',
-        port: 465,
-				secure: true, // use TLS
-				//create a .env file and define the process.env variables with your credentials.
-        auth: {
-					user: process.env.SMTP_TO_EMAIL,
-					pass: process.env.SMTP_TO_PASSWORD,
-				}
-    };
+var transport;
+if (process.env.NODE_ENV === "production") {
+  // all emails are delivered to destination
+  transport = {
+    host: "smtp.gmail.com",
+    port: 465,
+    secure: true, // use TLS
+    //create a .env file and define the process.env variables with your credentials.
+    auth: {
+      user: process.env.SMTP_TO_EMAIL,
+      pass: process.env.SMTP_TO_PASSWORD,
+    },
+  };
 } else {
-    // all emails are caught by ethereal.email
-    transport = {
-        host: 'smtp.ethereal.email',
-        port: 587,
-				security: STARTTLS, // start TLS security
-				//create a Ethereal test account @https://ethereal.email/create
-        auth: {
-            user: process.env.SMTP_DEV_EMAIL,
-            pass: process.env.SMTP_DEV_PASSWORD,
-        }
-    };
+  // all emails are caught by ethereal.email
+  transport = {
+    host: "smtp.ethereal.email",
+    port: 587,
+    security: process.env.STARTTLS, // start TLS security
+    //create a Ethereal test account @https://ethereal.email/create
+    auth: {
+      user: process.env.SMTP_DEV_EMAIL,
+      pass: process.env.SMTP_DEV_PASSWORD,
+    },
+  };
 }
 
 // call the transport function
