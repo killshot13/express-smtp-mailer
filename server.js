@@ -1,6 +1,7 @@
 const express = require("express");
 const cluster = require("cluster");
 const numCPUs = require("os").cpus().length;
+const rateLimit = require('express-rate-limit');
 
 const isDev = process.env.NODE_ENV !== "production";
 
@@ -20,10 +21,17 @@ if (!isDev && cluster.isMaster) {
   });
 } else {
   const app = express();
+  const limiter = new rateLimit({
+    windowMs: 1*60*1000, // 1 minute
+    max: 5
+    });
   const morgan = require("morgan");
   const path = require("path");
 
   const PORT = process.env.PORT || 5000;
+
+  // apply rate limiter to all requests
+  app.use(limiter);
 
   // Priority serve any static files.
   // Replace the example to connect to your frontend.
