@@ -1,5 +1,3 @@
-name: Travis_CI_esmtpm
-
 on:
   push:
     branches: [main]
@@ -8,20 +6,17 @@ on:
 
 language: node_js
 node_js:
-  - 12
-os:
-  - linux
-dist: ubuntu
+  - "stable"
+cache:
+  directories:
+    - "node_modules"
 
-before_install:
-  - npm i -g npm@>=6.14.x
-
-jobs:
-  build:
-    - run: npm ci
-    - run: npm install
-    - run: node server
-    - run: npm ci
+script:
+  - echo '******Build starts******'
+  - echo 'Installing Dependencies'
+  - npm install
+  - echo 'Running tests'
+  - mocha
 
 npm cache: false
 
