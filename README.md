@@ -1,11 +1,13 @@
 # express-smtp-mailer
+[![Build Status](https://travis-ci.com/killshot13/express-smtp-mailer.svg?branch=main)](https://travis-ci.com/killshot13/express-smtp-mailer) [![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/killshot13/express-smtp-mailer/graphs/traffic) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+<br>
+## Efficient & Secure Node Server -- Built with Express, Nodemailer, and Gmail
 
-## Uses Express.js, Nodemailer, and Google's SMTP server
+### Multi-Process Design, HTML FileType Priority, Middleware AJAX Parsing
+### Integrated SMTP Mail Delivery For Contact Forms, Subscriptions, etc
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/killshot/13/express-smtp-mailer)
 
-### Can be configured for use with contact forms, subscriptions, etc
-
-#### #production-ready<br></br>
-## Usage
+## [VIEW FULL TUTORIAL](https://daily.dev/posts/how-to-build-an-smtp-mail-server-with-express-node-and-gmail)
 
 ### Installation
 

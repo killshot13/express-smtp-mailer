@@ -18,8 +18,6 @@ script:
   - echo 'Running tests'
   - mocha
 
-npm cache: false
-
 notifications:
   email:
     recipients:
