@@ -18,10 +18,7 @@ before_install:
 
 jobs:
   build:
-    - run: npm ci
-    - run: npm install
-    - run: node server
-    - run: npm ci
+    - run: npm test
 
 npm cache: false
 
