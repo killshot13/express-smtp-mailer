@@ -1,10 +1,13 @@
 # express-smtp-mailer
+
 [![Build Status](https://travis-ci.com/killshot13/express-smtp-mailer.svg?branch=main)](https://travis-ci.com/killshot13/express-smtp-mailer) [![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/killshot13/express-smtp-mailer/graphs/traffic) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-<br>
+
 ## Efficient & Secure Node Server -- Built with Express, Nodemailer, and Gmail
 
 ### Multi-Process Design, HTML FileType Priority, Middleware AJAX Parsing
+
 ### Integrated SMTP Mail Delivery For Contact Forms, Subscriptions, etc
+
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/killshot/13/express-smtp-mailer)
 
 ## [VIEW FULL TUTORIAL](https://daily.dev/posts/how-to-build-an-smtp-mail-server-with-express-node-and-gmail)
@@ -23,13 +26,19 @@
 
 create a new `.env` file in the root directory
 
-use these `process.env` variables defined in the `routes.js` file to provide account authentication
+use the `process.env` variables defined in the `.env.example` and `routes.js` files to setup authentication
+
+for production, use the credentials of the recipient account
 
 _`process.env.SMTP_TO_EMAIL=''`_
 
 _`process.env.SMTP_TO_PASSWORD=''`_
 
-use the credentials of the recipient account
+for development and testing, create an [Ethereal account](https://ethereal.email/create) and enter the credentials of the testing account (if desired)
+
+_`process.env.SMTP_DEV_EMAIL=''`_
+
+_`process.env.SMTP_DEV_PASSWORD=''`_
 
 ### Testing
 
@@ -41,7 +50,7 @@ it should print out the following lines
 
 `Ready to send mail!`
 
-verify the functionality by replacing the `'/example/frontend.js'` dirpath in `routes.js` and `server.js` with your frontend route
+verify full functionality by replacing the `'/example/frontend.js'` dirpath in `routes.js` and `server.js` with your own API routes
 
 ### Success
 

@@ -4,9 +4,11 @@ const router = require("express").Router();
 const path = require("path");
 const nodemailer = require("nodemailer");
 
+const isDev = process.env.NODE_ENV !== "production";
+
 //this is the authentication for sending email.
-var transport;
-if (process.env.NODE_ENV === "production") {
+let transport;
+if (!isDev) {
   // all emails are delivered to destination
   transport = {
     host: "smtp.gmail.com",
@@ -23,7 +25,6 @@ if (process.env.NODE_ENV === "production") {
   transport = {
     host: "smtp.ethereal.email",
     port: 587,
-    security: process.env.STARTTLS, // start TLS security
     //create a Ethereal test account @https://ethereal.email/create
     auth: {
       user: process.env.SMTP_DEV_EMAIL,
@@ -78,8 +79,6 @@ router.post("/", (req, res, next) => {
     }
   });
 });
-
-// API routes
 
 // Answer API requests.
 router.use("/api", function (req, res) {
