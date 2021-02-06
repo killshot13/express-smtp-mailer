@@ -1,8 +1,10 @@
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+push:
+  branches: [main]
+pull_request:
+  branches: [main]
+
+os: [linux]
+dist: xenial
 
 language: node_js
 node_js:
@@ -12,10 +14,10 @@ cache:
     - "node_modules"
 
 script:
-  - echo '******Build starts******'
+  - echo 'Starting Build'
   - echo 'Installing Dependencies'
   - npm install
-  - echo 'Running tests'
+  - echo 'Running Tests'
   - mocha
 
 notifications:
@@ -23,5 +25,5 @@ notifications:
     recipients:
       - dmreh@outlook.com
       - m.rehnert@safethishome.com
-    on_success: never # default: change
-    on_failure: always # default: always
+    on_success: change
+    on_failure: always
