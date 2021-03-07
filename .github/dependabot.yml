@@ -1,0 +1,32 @@
+# https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+# Please use the link above to view the documentation for all configuration options.
+
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    # Files stored in repository root
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+      time: "02:00"
+      timezone: "America/Chicago"
+    allow: "all"
+    # Specify labels for npm pull requests
+    labels:
+      - "npm"
+      - "dependencies"
+    # Allow up to 5 open pull requests for npm dependencies
+    open-pull-requests-limit: 5
+    # Prefix all commit messages with "npm"
+    # include a list of updated dependencies
+    commit-message:
+      prefix: "npm"
+      include: "scope"
+    pull-request-branch-name:
+    # Separate sections of the branch name with a hyphen
+    # for example, `dependabot-npm_and_yarn-next_js-acorn-6.4.1`
+      separator: "-"
+    rebase-strategy: "auto"
+    # Increase the version requirements for npm only if required
+    versioning-strategy: increase-if-necessary
