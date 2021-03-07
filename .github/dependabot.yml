@@ -11,7 +11,7 @@ updates:
       day: "sunday"
       time: "02:00"
       timezone: "America/Chicago"
-    allow: "all"
+    type: "all"
     # Specify labels for npm pull requests
     labels:
       - "npm"
@@ -24,8 +24,8 @@ updates:
       prefix: "npm"
       include: "scope"
     pull-request-branch-name:
-    # Separate sections of the branch name with a hyphen
-    # for example, `dependabot-npm_and_yarn-next_js-acorn-6.4.1`
+      # Separate sections of the branch name with a hyphen
+      # for example, `dependabot-npm_and_yarn-next_js-acorn-6.4.1`
       separator: "-"
     rebase-strategy: "auto"
     # Increase the version requirements for npm only if required
