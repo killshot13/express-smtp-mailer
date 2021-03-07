@@ -11,7 +11,6 @@ updates:
       day: "sunday"
       time: "02:00"
       timezone: "America/Chicago"
-    type: "all"
     # Specify labels for npm pull requests
     labels:
       - "npm"
