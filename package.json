@@ -34,7 +34,7 @@
   "author": "killshot13 (Michael Rehnert)",
   "devDependencies": {
     "debug": "4.3.1",
-    "mocha": "8.3.1",
+    "mocha": "8.3.2",
     "should": "13.2.3",
     "supertest": "6.1.3"
   }
