@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/killshot13/express-smtp-mailer.svg?branch=main)](https://travis-ci.com/killshot13/express-smtp-mailer) [![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/killshot13/express-smtp-mailer/graphs/traffic) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
-[v1.1.0 release notes](https://github.com/killshot13/express-smtp-mailer/releases/tag/v1.1.0)
+[v1.2.0 release notes](https://github.com/killshot13/express-smtp-mailer/releases/tag/v1.2.0)
 
 ## Efficient & Secure Node Server -- Built with Express, Nodemailer, and Gmail
 

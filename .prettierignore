@@ -1,0 +1,24 @@
+# Node build artifacts
+node_modules
+npm-debug.log*
+npm-error.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local development
+.dev
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Vendor JS files
+vendor.js
+main.js
+maplace-active.js
