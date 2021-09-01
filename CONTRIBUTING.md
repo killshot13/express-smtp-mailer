@@ -2,7 +2,7 @@
 
 ### Welcome, glad you could make it! 😎
 
->First off, thank you for considering contributing to `express-smtp-mailer`. It's people like you that make open-source software such a great library of resources!
+First off, thank you for considering contributing to `express-smtp-mailer`. It's people like you that make open-source software such a great library of resources!
 
 ### Why read these guidelines?
 
@@ -15,17 +15,6 @@
 ### What we are NOT looking for.
 
 >Please, don't use the issue tracker for [support questions]. Check whether the Discussions section of this repository can help with your issue. If your issue is more generalized, Stack Overflow is also worth considering. We also will not accept breaking changes or code that doesn't follow the existing linting/styling.
-
----
-
-#### My/Our Responsibilities as the Maintainer(s)
-
->* Create issues for any major changes and enhancements that you wish to make. 
->* Discuss things transparently and get community feedback.
->* Keep feature versions as small as possible, preferably one new feature per version.
->* Be welcoming to newcomers and encourage diverse new contributors from all backgrounds.
-
----
 
 # First Contribution?
 
@@ -81,6 +70,17 @@
 🔐🔐🔐
 
 >Here is a link to the full [Security Policy](https://github.com/killshot13/express-smtp-mailer/blob/main/SECURITY.md).
+
+---
+
+### My/Our Responsibilities as the Maintainer(s)
+
+>* Create issues for any major changes and enhancements that you wish to make. 
+>* Discuss things transparently and get community feedback.
+>* Keep feature versions as small as possible, preferably one new feature per version.
+>* Be welcoming to newcomers and encourage diverse new contributors from all backgrounds.
+
+---
 
 # Before You Go
 
