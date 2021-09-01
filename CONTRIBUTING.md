@@ -6,7 +6,7 @@ First off, thank you for considering contributing to `express-smtp-mailer`. It's
 
 ### Why read these guidelines?
 
->Following these guidelines helps to communicate that you respect the time of the developer(s) managing and developing this open-source project. In return, I(we) will strive to reciprocate that respect in addressing your issues, assessing changes, and helping you finalize your pull requests.
+>Following these guidelines helps to communicate that you respect the time of the developer(s) managing and developing this open-source project. In return, I (we) will strive to reciprocate that respect in addressing your issues, assessing changes, and helping you finalize your pull requests.
 
 ### What kinds of contributions are needed?.
 
@@ -14,7 +14,7 @@ First off, thank you for considering contributing to `express-smtp-mailer`. It's
 
 ### What we are NOT looking for.
 
->Please, don't use the issue tracker for [support questions]. Check whether the Discussions section of this repository can help with your issue. If your issue is more generalized, Stack Overflow is also worth considering. We also will not accept breaking changes or code that doesn't follow the existing linting/styling.
+>Please, don't use the issue tracker for support questions! Instead check to see if other users have made similar inquiries in the [Discussions section](https://github.com/killshot13/express-smtp-mailer/discussions) which might sometimes help with your issue. If your issue is more generalized, Stack Overflow is also worth considering. I (we) also will not accept breaking changes or code that doesn't follow the existing linting/styling.
 
 # First Contribution?
 
@@ -28,11 +28,12 @@ First off, thank you for considering contributing to `express-smtp-mailer`. It's
 
 ### For something bigger than a one or two line fix:
 
->1. Create your own fork of the code
->2. Do the changes in your fork
+>1. Create your own fork of the code.
+>2. Make the changes in your fork.
 >3. If you like the change and think the project could use it:
     * Be sure you have followed the code style for the project.
     * Send a pull request indicating your changes.
+>4. Start small. Changes are the easiest form of contributions to incorporate.
 
 >As a rule of thumb, changes are obvious fixes if they do not introduce any new functionality or creative thinking. As long as the change does not affect functionality, some likely examples include the following:
 
@@ -41,7 +42,7 @@ First off, thank you for considering contributing to `express-smtp-mailer`. It's
 >* Comment clean up
 >* Bug fixes that change default return values or error codes stored in constants
 >* Adding logging messages or debugging output
->* Changes to ‘metadata’ files like Gemfile, .gitignore, build scripts, etc.
+>* Changes to 'metadata' files like Gemfile, .gitignore, build scripts, etc.
 >* Moving source files from one directory or package to another
 
 ## How to report a bug
@@ -50,26 +51,27 @@ First off, thank you for considering contributing to `express-smtp-mailer`. It's
 
 ## How to suggest a feature or enhancement
 
-> If you find yourself wishing for a feature that doesn't exist in `express-smtp-mailer`, you are probably not alone. 
-> Use the [Feature Request Template](https://github.com/killshot13/express-smtp-mailer/issues/new?assignees=&labels=&template=feature_request.md&title=) on GitHub which describes the feature you would like to see, why you need it, and how it should work.
+>If you find yourself wishing for a feature that doesn't exist in `express-smtp-mailer`, you are probably not alone. 
+>Use the [Feature Request Template](https://github.com/killshot13/express-smtp-mailer/issues/new?assignees=&labels=&template=feature_request.md&title=) on GitHub which describes the feature you would like to see, why you need it, and how it should work.
 
 ## Code review process
 
->I(we) look at Pull Requests on a regular basis in a weekly triage process that I(we) use to track order of importance.
->After feedback has been given I(we) expect responses within two weeks. After two weeks I(we) may close the pull request if it isn't showing any activity.
+>I (we) look at Pull Requests on a regular basis in a weekly triage process that I (we) use to track order of importance. 
+>After feedback has been given I (we) expect responses within two weeks. 
+>After two weeks I (we) may close the pull request if it isn't showing any activity.
 
 ## Security Policy
 
 🔐🔐🔐
->Any security issues should be submitted directly to dmreh@outlook.com
 >In order to determine whether you are dealing with a security issue, ask yourself these two questions:
+>
 >* Can I access something that's not mine, or something I shouldn't have access to?
 >* Can I disable something for other people?
 >
->If the answer to either of those two questions are "yes", then you're probably dealing with a security issue. Note that even if you answer "no" to both questions, you may still be dealing with a security issue, so if you're unsure, just email me at dmreh@outlook.com.
+>If the answer to either of those two questions is "yes", then you're probably dealing with a security issue. Note that even if you answer "no" to both questions, you may still be dealing with a security issue, so if you're unsure, just email the author at dmreh@outlook.com.
 🔐🔐🔐
 
->Here is a link to the full [Security Policy](https://github.com/killshot13/express-smtp-mailer/blob/main/SECURITY.md).
+>Here is the link to the full [Security Policy](https://github.com/killshot13/express-smtp-mailer/blob/main/SECURITY.md).
 
 ---
 
@@ -84,8 +86,7 @@ First off, thank you for considering contributing to `express-smtp-mailer`. It's
 
 # Before You Go
 
-You can always chat with me(us) using in the [Discussions area](https://github.com/killshot13/express-smtp-mailer/discussions).
-All feedback, inquiries, and constructive criticism is welcome provided the conversation remains civil and free of derogatory or abusive verbage according to the [Code of Conduct](https://github.com/killshot13/express-smtp-mailer/blob/main/CODE_OF_CONDUCT.md)
+You can always chat with me (us) using in the [Discussions area](https://github.com/killshot13/express-smtp-mailer/discussions).
+All feedback, inquiries, and constructive criticism is welcome provided the conversation remains civil and free of derogatory or abusive verbage in accordance with the [Code of Conduct](https://github.com/killshot13/express-smtp-mailer/blob/main/CODE_OF_CONDUCT.md)
 
 Thank you for your time and your contribution!!! 🎉🎉🎉
-
