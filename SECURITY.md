@@ -7,6 +7,7 @@
 > * Can I disable something for other people?
 >
 > If the answer to either of those two questions are "yes", then you're probably dealing with a security issue. Note that even if you answer "no" to both questions, you may still be dealing with a security issue, so if you're unsure, just email me at dmreh@outlook.com.
+
 🔐🔐🔐
 
 ## Supported Versions
