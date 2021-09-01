@@ -6,7 +6,7 @@
 
 ### Why read these guidelines?
 
->Following these guidelines helps to communicate that you respect the time of the developer(s) managing and developing this open-source project. In return, I will do my best to reciprocate that respect in addressing your issues, assessing changes, and helping you finalize your pull requests.
+>Following these guidelines helps to communicate that you respect the time of the developer(s) managing and developing this open-source project. In return, I(we) will strive to reciprocate that respect in addressing your issues, assessing changes, and helping you finalize your pull requests.
 
 ### What kinds of contributions are needed?.
 
@@ -35,9 +35,9 @@
 >
 >If a maintainer asks you to "rebase" your PR, they're saying that a lot of code has changed, and that you need to update your branch so it's easier to merge.
 
-# Getting started
+# Contributing Guidelines
 
-### For something that is bigger than a one or two line fix:
+### For something bigger than a one or two line fix:
 
 >1. Create your own fork of the code
 >2. Do the changes in your fork
@@ -64,6 +64,11 @@
 > If you find yourself wishing for a feature that doesn't exist in `express-smtp-mailer`, you are probably not alone. 
 > Use the [Feature Request Template](https://github.com/killshot13/express-smtp-mailer/issues/new?assignees=&labels=&template=feature_request.md&title=) on GitHub which describes the feature you would like to see, why you need it, and how it should work.
 
+## Code review process
+
+>I(we) look at Pull Requests on a regular basis in a weekly triage process that I(we) use to track order of importance.
+>After feedback has been given I(we) expect responses within two weeks. After two weeks I(we) may close the pull request if it isn't showing any activity.
+
 ## Security Policy
 
 🔐🔐🔐
@@ -77,13 +82,10 @@
 
 >Here is a link to the full [Security Policy](https://github.com/killshot13/express-smtp-mailer/blob/main/SECURITY.md).
 
-## Code review process
-
->I(we) look at Pull Requests on a regular basis in a weekly triage process that I(we) use to track order of importance.
->After feedback has been given I(we) expect responses within two weeks. After two weeks I(we) may close the pull request if it isn't showing any activity.
+# Before You Go
 
 You can always chat with me(us) using in the [Discussions area](https://github.com/killshot13/express-smtp-mailer/discussions).
-All feedback, inquiries, and constructive criticism is welcome provided the conversation remains civil and free of derogatory or abusive verbage.
+All feedback, inquiries, and constructive criticism is welcome provided the conversation remains civil and free of derogatory or abusive verbage according to the [Code of Conduct](https://github.com/killshot13/express-smtp-mailer/blob/main/CODE_OF_CONDUCT.md)
 
 Thank you for your time and your contribution!!! 🎉🎉🎉
 
