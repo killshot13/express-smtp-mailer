@@ -25,7 +25,7 @@
 
 create a new `.env` file in the root directory
 
-use the `process.env` variables defined in the `.env.example` and `routes.js` files to setup authentication
+use the `process.env` variables defined in the `.env.example` and `./routes/mailrouter.js` files to setup authentication
 
 for production, use the credentials of the recipient account
 
@@ -41,7 +41,7 @@ _`process.env.SMTP_DEV_PASSWORD=''`_
 
 ### Testing
 
-go back to the terminal and run `node server`
+go back to the terminal and run `npm run dev`
 
 it should print out the following lines
 
@@ -49,7 +49,7 @@ it should print out the following lines
 
 `Ready to send mail!`
 
-verify full functionality by replacing the `'/example/frontend.js'` dirpath in `routes.js` and `server.js` with your own API routes
+verify full functionality by replacing `'./frontend/frontend.js'` with your own API routes and linking them to the endpoints defined in `./routes/mailrouter.js` and `./server.js`
 
 ### Success
 
