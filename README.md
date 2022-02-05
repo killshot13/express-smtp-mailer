@@ -27,17 +27,17 @@ create a new `.env` file in the root directory
 
 use the `process.env` variables defined in the `.env.example` and `./routes/mailrouter.js` files to setup authentication
 
-for production, use the credentials of the recipient account
-
-_`process.env.SMTP_TO_EMAIL=''`_
-
-_`process.env.SMTP_TO_PASSWORD=''`_
-
 for development and testing, create an [Ethereal account](https://ethereal.email/create) and enter the credentials of the testing account (if desired)
 
 _`process.env.SMTP_DEV_EMAIL=''`_
 
 _`process.env.SMTP_DEV_PASSWORD=''`_
+
+for production, you need to create a project on Google Cloud Platform, create an internal project, authorize the Gmail API, and then establish a connection with your Google account. You can [authenticate using OAuth 2.0](https://cloud.google.com/docs/authentication) via the Google API Playground, and once you perform the initial authentication and accept the request permissions, Nodemailer will take over and automatically renew your login so it doesn't actually expire in production.
+
+_`process.env.SMTP_TO_EMAIL=''`_
+
+_`process.env.SMTP_TO_PASSWORD=''`_
 
 ### Testing
 
