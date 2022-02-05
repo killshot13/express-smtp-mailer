@@ -35,9 +35,10 @@ _`process.env.SMTP_DEV_PASSWORD=''`_
 
 for production, you need to create a project on Google Cloud Platform, create an internal project, authorize the Gmail API, and then establish a connection with your Google account. You can [authenticate using OAuth 2.0](https://cloud.google.com/docs/authentication) via the Google API Playground, and once you perform the initial authentication and accept the request permissions, Nodemailer will take over and automatically renew your login so it doesn't actually expire in production.
 
-_`process.env.SMTP_TO_EMAIL=''`_
-
-_`process.env.SMTP_TO_PASSWORD=''`_
+			clientId: process.env.CLIENT_ID,
+			clientSecret: process.env.CLIENT_SECRET,
+			refreshToken: process.env.REFRESH_TOKEN,
+			accessToken: process.env.ACCESS_TOKEN,
 
 ### Testing
 
