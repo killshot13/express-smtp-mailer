@@ -19,7 +19,7 @@
 | 2.0.0   | :white_check_mark: |
 | 1.2.0   | :white_check_mark: |
 | 1.1.0   | :white_check_mark: |
-| 1.0.0   | :red_cross_mark: |
+| 1.0.0   | ❌ |
 
 ## Reporting a Vulnerability
 
