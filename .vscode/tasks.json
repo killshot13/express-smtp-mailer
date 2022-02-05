@@ -1,0 +1,42 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Install Deps",
+			"type": "npm",
+			"script": "install",
+			"path": "/",
+			"problemMatcher": ["$func-node-watch"],
+			"isBackground": true
+		},
+		{
+			"type": "eslint",
+			"problemMatcher": ["$eslint-stylish"],
+			"label": "eslint: lint whole folder"
+		},
+		{
+			"label": "Run Dev Server",
+			"type": "npm",
+			"script": "dev",
+			"path": "/",
+			"problemMatcher": ["$func-node-watch"]
+		},
+		{
+			"label": "Run Tests",
+			"type": "npm",
+			"script": "test",
+			"path": "/",
+			"problemMatcher": ["$func-node-watch"],
+			"isBackground": true
+		},
+		{
+			"label": "Start Express SMTP Server",
+			"type": "npm",
+			"script": "start",
+			"path": "/",
+			"problemMatcher": ["$func-node-watch"]
+		}
+	]
+}

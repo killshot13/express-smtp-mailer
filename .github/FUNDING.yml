@@ -1,7 +1,4 @@
 # These are supported funding model platforms
 
-github: 
-  [killshot13]
-custom: 
-  ['https://paypal.me/safethishome']
-
+github: [killshot13]
+custom: ['https://paypal.me/safethishome']

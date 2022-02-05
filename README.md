@@ -1,18 +1,15 @@
 # express-smtp-mailer
 
-[![Build Status](https://travis-ci.com/killshot13/express-smtp-mailer.svg?branch=main)](https://travis-ci.com/killshot13/express-smtp-mailer) [![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/killshot13/express-smtp-mailer/graphs/traffic) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+***
 
-[v1.2.0 release notes](https://github.com/killshot13/express-smtp-mailer/releases/tag/v1.2.0)
+| Status | Usage | Tooling | Security | Support |
+| :----: | :---: | :-----: | :------: | :-----: |
+| [![Build Status](https://travis-ci.com/killshot13/express-smtp-mailer.svg?branch=main)](https://travis-ci.com/killshot13/express-smtp-mailer) | [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) | [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) | [![Known Vulnerabilities](https://snyk.io/test/github/killshot13/express-smtp-mailer/badge.svg)](https://snyk.io/test/github/killshot13/express-smtp-mailer) | [![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/killshot13/express-smtp-mailer/graphs/traffic) |
 
-## Efficient & Secure Node Server -- Built with Express, Nodemailer, and Gmail
+>ATTENTION: VERSION 2.0.0 HAS BEEN RELEASED. THIS IS A MAJOR SERMVER VERSIONING UPDATE AKA INCLUDES BREAKING CHANGES. PLEASE BE AWARE AND DON'T HESITATE TO REACH OUT IF YOU ARE EXPERIENCING NEGATIVE SIDE-EFFECTS FROM THE LATEST UPDATE.
 
-### Multi-Process Design, HTML FileType Priority, Middleware AJAX Parsing
-
-### Integrated SMTP Mail Delivery For Contact Forms, Subscriptions, etc
-
-[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/killshot/13/express-smtp-mailer)
-
-## [VIEW FULL TUTORIAL](https://daily.dev/posts/how-to-build-an-smtp-mail-server-with-express-node-and-gmail)
+## [VIEW PROJECT CHANGELOG](https://github.com/killshot13/express-smtp-mailer/wiki/Version-Release-Notes)
+## [READ STEP-BY-STEP WALKTHROUGH](https://daily.dev/posts/how-to-build-an-smtp-mail-server-with-express-node-and-gmail)
 
 ### Installation
 
