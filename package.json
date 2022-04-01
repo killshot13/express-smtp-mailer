@@ -36,7 +36,7 @@
 		"body-parser": "^1.19.1",
 		"dotenv": "^16.0.0",
 		"express": "^4.17.2",
-		"express-rate-limit": "^6.2.0",
+		"express-rate-limit": "^6.3.0",
 		"nodemailer": "^6.7.2"
 	},
 	"devDependencies": {
